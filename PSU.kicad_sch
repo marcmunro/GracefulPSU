@@ -3343,7 +3343,7 @@
     (property "Value" "IRF7319" (id 1) (at 148.59 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "my_extras:SOIC127P600X175-8N" (id 2) (at 151.13 104.14 0)
+    (property "Footprint" "SOIC127P600X175-8N" (id 2) (at 151.13 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "None" (id 3) (at 151.13 104.14 0)
@@ -3562,7 +3562,7 @@
     (uuid a5e7c297-8404-4078-b7f8-933e1625a329)
     (property "Reference" "Q2" (id 0) (at 154.94 63.5 90))
     (property "Value" "IRF7319" (id 1) (at 153.67 55.2474 90))
-    (property "Footprint" "my_extras:SOIC127P600X175-8N" (id 2) (at 153.67 58.42 0)
+    (property "Footprint" "SOIC127P600X175-8N" (id 2) (at 153.67 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "None" (id 3) (at 153.67 58.42 0)
@@ -4086,10 +4086,10 @@
       (reference "Q1") (unit 1) (value "CSD19505") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/8313aa4b-6cbb-4625-849b-7a8ca7be5fa2"
-      (reference "Q2") (unit 1) (value "IRF7319") (footprint "my_extras:SOIC127P600X175-8N")
+      (reference "Q2") (unit 1) (value "IRF7319") (footprint "SOIC127P600X175-8N")
     )
     (path "/a5e7c297-8404-4078-b7f8-933e1625a329"
-      (reference "Q2") (unit 2) (value "IRF7319") (footprint "my_extras:SOIC127P600X175-8N")
+      (reference "Q2") (unit 2) (value "IRF7319") (footprint "SOIC127P600X175-8N")
     )
     (path "/3cdf56f1-911a-4c7d-85ba-496fd2ca049d"
       (reference "Q3") (unit 1) (value "CSD19505KCS") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
