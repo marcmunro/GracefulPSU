@@ -89,6 +89,25 @@ the next time power is applied.  Finally, the non-inverting input of
 U1A will drop to 0V sending U1A's output high and turning off the LED
 (J5, J6).
 
+#### Charging Time and Current
+
+[This](https://www.amazon.ca/LMUWF-Capacitor-Module-Capacitors-Protection/dp/B09FXK86RZ/ref=sr_1_2?crid=354P0FGQLHK3U&keywords=2f+super+capacitor&qid=1648493702&sprefix=2f+supercapacitor%2Caps%2C146&sr=8-2)
+is the supercapacitor module I used, which is actually 1.6F.
+
+The charge current for the supercapacitor is given by the formula:
+
+    C * V / t
+
+where C is the capacitance, V is the voltage to which it is to be
+charged, and t is the time taken to charge.
+
+With the circuit as given, the full charge time (for 12V) is around 8 seconds,
+which gives us 1.6 * 12 / 8 = 2.4 Amp.
+
+The Schottky diodes are rated at 4A, so using any larger
+supercapacitor will require circuit modification to limit the charge
+current.  This can be done by increasing the value of C1 and/or R3. 
+
 ### Power Control Latch
 
 This section of the circuit is from:

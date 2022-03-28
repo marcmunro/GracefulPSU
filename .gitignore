@@ -3,8 +3,8 @@
 \#*#
 \.\#*
 
-# Backup directory
-PSU-backups
+# Backup directories
+*-backups
 
 # Cache directory
 fp-info-cache

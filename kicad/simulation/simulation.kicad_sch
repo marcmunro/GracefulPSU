@@ -1214,7 +1214,7 @@
     (property "Spice_Netlist_Enabled" "Y" (id 6) (at 118.11 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Spice_Lib_File" "/home/marc/proj/kicad6/psu/PSU/spice/2N2222.lib" (id 7) (at 118.11 81.28 0)
+    (property "Spice_Lib_File" "spice/2N2222.lib" (id 7) (at 118.11 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0446296b-334d-4b83-b7b7-1f79af6b65cd))

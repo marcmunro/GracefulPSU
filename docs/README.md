@@ -21,6 +21,14 @@ and software to implement and use such a power supply.
 The circuit has been developed using Kicad V6.  All of the kicad
 project files are in the `kicad` subdirectory.
 
+The `simulation` subdirectory contains a kicad project which simulates
+the Supercapacitor Backup Power, and the Power Control Enable parts of
+the circuit.  Note that the simulation uses a bipolar transistor as I
+was unable to get the CSD19505 simulation to work.
+
+This proved good enough to be able to choose component values for the
+final circuit.
+
 ### Circuit Diagram Image
 
 A rendered image of the kicad circuit diagram can be found in
