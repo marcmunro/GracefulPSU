@@ -24,7 +24,7 @@ project files are in the `kicad` subdirectory.
 ### Circuit Diagram Image
 
 A rendered image of the kicad circuit diagram can be found in
-[`schematic.pdf`](blob/main/schematic.pdf) in the root directory.
+[`schematic.pdf`](schematic.pdf) in the root directory.
 
 ### Gerber Files
 
@@ -36,7 +36,7 @@ price.
 ### Circuit Description
 
 A description of the circuit can be found in
-[`docs/psu.md`](blob/main/docs/psu.md).
+[`docs/psu.md`](docs/psu.md).
 
 ### Software
 
