@@ -36,7 +36,7 @@ price.
 ### Circuit Description
 
 A description of the circuit can be found in
-[`docs/psu.md`](psu.md).
+[`docs/psu.md`](./psu.md).
 
 ### Software
 
