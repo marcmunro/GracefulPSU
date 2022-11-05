@@ -12,6 +12,9 @@ d 1 2 Signal
 * 5.6V Zener diode
 .model ZD5V6 D (BV=5.6 IBV=17m)
 
+* 6.8V Zener diode
+.model ZD6V8 D (BV=6.8 IBV=17m)
+
 * 2.4V Zener diode
 .model ZD2V4 D (BV=2.4 IBV=17m)
 
